@@ -1,0 +1,477 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Monthly Climatic Data for the World</title>
+
+<meta name="Description" content="Monthly Climatic Data for the World (format: HTML)">
+<meta name="DC.description" content="Monthly Climatic Data for the World (format: HTML)">
+
+<meta name="DC.title" lang="en" content="Monthly Climatic Data for the World">
+<meta name="DCTERMS.modified" scheme="W3CDTF" content="2018-01-19">
+<meta name="keywords" content="ANEMOMETERS,Atmospheric - Surface - Air Temperature,Atmospheric - Surface - Precipitation,Atmospheric - Surface - Wind Speed and Direction,BAROMETERS,DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce,DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SUNSHINE,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS,EARTH SCIENCE > ATMOSPHERE > PRECIPITATION,GEOGRAPHIC REGION > GLOBAL LAND,METEOROLOGICAL STATIONS,RAIN GAUGES,THERMOMETERS,VERTICAL LOCATION > LAND SURFACE,VISUAL OBSERVATIONS"/>
+
+<meta name="robots" content="index,nofollow">
+
+
+<meta name="author" content="National Centers for Environmental Information (NCEI)">
+<meta name="application-name" content="">
+<link rel="shortcut icon" href="/Images/favicon.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="/css/apps/iso/images/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/css/apps/iso/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/css/apps/iso/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/css/apps/iso/images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" href="/css/apps/iso/images/apple-touch-icon.png">
+<meta name="msapplication-tooltip" content="">
+<meta name="msapplication-task" content="name=NCEI;action-uri=https://www.ncei.noaa.gov/;icon-uri=https://www.nodc.noaa.gov/Images/favicon.ico">
+<meta name="msapplication-TileColor" content="#007EC6">
+<meta name="msapplication-TileImage" content="/css/apps/iso/images/apple-touch-icon-144.png">
+<meta name="verify-v1" content="DjxBYfR0oM2KSNJl6i2BbxfTcXOGUnbglkT0QQj5KtI=">
+<link href="/css/apps/iso/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" media="all" href="/css/apps/iso/css/reset.css">
+<link rel="stylesheet" type="text/css" media="all" href="/css/apps/iso/css/application.css">
+<link rel="stylesheet" type="text/css" media="all" href="/css/apps/iso/css/metadata-display.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 659px)" href="/css/apps/iso/css/layout_320.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 660px) and (max-width: 1023px)" href="/css/apps/iso/css/layout_640.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" href="/css/apps/iso/css/layout_1024.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&amp;client=gme-noaa&amp;channel=NOAA.NESDIS.NCDC.METADATA"></script><script type="text/javascript" src="/scripts/apps/iso/lib/html5.min.js"></script><script type="text/javascript" src="/scripts/apps/iso/application.js"></script><script src="/scripts/apps/iso/bootstrap.min.js"></script><script src="/scripts/apps/iso/metadata-display.js"></script>
+
+<script type="text/javascript">
+var mapCoordinates = [90,-90,180,-180];
+</script>
+<script id="_fed_an_ua_tag" type="text/javascript" src="/scripts/federated-analytics.js?agency=DOC&amp;subagency=NOAA&pua=UA-42101633-1"></script>
+
+<script type="application/ld+json">
+{
+   "alternateName" : "gov.noaa.ncdc:C01037",
+   "creator" : [],
+   "dateModified" : "2013-05-02",
+   "spatial" : [
+      {
+         "geo" : {
+            "box" : "-90 -180 90 180",
+            "@type" : "GeoShape"
+         },
+         "name" : "geographic bounding box",
+         "@type" : "Place"
+      },
+      {
+         "name" : "GEOGRAPHIC REGION > GLOBAL LAND",
+         "@type" : "Place"
+      }
+   ],
+   "keywords" : "Atmospheric - Surface - Air Temperature,Atmospheric - Surface - Precipitation,Atmospheric - Surface - Wind Speed and Direction,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SUNSHINE,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE,EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS,EARTH SCIENCE > ATMOSPHERE > PRECIPITATION",
+   "identifier" : [
+      {
+         "value" : "gov.noaa.ncdc:C01037",
+         "propertyID" : "NCEI Dataset Identifier",
+         "@type" : "PropertyValue"
+      },
+      {
+         "value" : "NCEI DSI 3900_01",
+         "propertyID" : "alternate identifier",
+         "@type" : "PropertyValue"
+      }
+   ],
+   "url" : "https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01037",
+   "publisher" : {
+      "subOrganization" : [
+         {
+            "name" : "National Oceanic and Atmospheric Administration",
+            "@type" : "Organization"
+         }
+      ],
+      "contactPoint" : [
+         {
+            "faxNumber" : "+1-301-713-3300",
+            "email" : "NCEI.Info@noaa.gov",
+            "telephone" : "+1-301-713-3277",
+            "hoursAvailable" : {
+               "dayOfWeek" : [
+                  "http://purl.org/goodrelations/v1/#Monday",
+                  "http://purl.org/goodrelations/v1/#Tuesday",
+                  "http://purl.org/goodrelations/v1/#Wednesday",
+                  "http://purl.org/goodrelations/v1/#Thursday",
+                  "http://purl.org/goodrelations/v1/#Friday"
+               ],
+               "@type" : "OpeningHoursSpecification"
+            },
+            "contactType" : "customer service",
+            "@type" : "ContactPoint"
+         },
+         {
+            "faxNumber" : "+1-301-713-3300",
+            "email" : "NODC.DataOfficer@noaa.gov",
+            "telephone" : "+1-301-713-3277",
+            "hoursAvailable" : {
+               "dayOfWeek" : [
+                  "http://purl.org/goodrelations/v1/#Monday",
+                  "http://purl.org/goodrelations/v1/#Tuesday",
+                  "http://purl.org/goodrelations/v1/#Wednesday",
+                  "http://purl.org/goodrelations/v1/#Thursday",
+                  "http://purl.org/goodrelations/v1/#Friday"
+               ],
+               "@type" : "OpeningHoursSpecification"
+            },
+            "contactType" : "technical support",
+            "@type" : "ContactPoint"
+         }
+      ],
+      "url" : "https://www.ncei.noaa.gov/",
+      "name" : "NOAA National Centers for Environmental Information (NCEI)",
+      "address" : {
+         "streetAddress" : "Federal Building, 151 Patton Avenue",
+         "addressCountry" : "US",
+         "addressLocality" : "Asheville",
+         "postalCode" : "28801-5001",
+         "addressRegion" : "NC",
+         "@type" : "PostalAddress"
+      },
+      "@type" : "Organization"
+   },
+   "dateCreated" : "2011-03-15",
+   "@type" : "Dataset",
+   "temporal" : "1948/",
+   "name" : "Monthly Climatic Data for the World",
+   "description" : "Publication of monthly mean temperature, pressure, precipitation, vapor pressure, and hours of sunshine for approximately 2,000 surface data collection stations worldwide, and monthly mean upper air temperatures, dew point depressions, and wind velocities for approximately 500 observing sites.",
+   "image" : {
+      "caption" : "Image example",
+      "url" : "https://www1.ncdc.noaa.gov/pub/data/metadata/images/C01037.JPG",
+      "@type" : "ImageObject"
+   },
+   "distribution" : [
+      {
+         "url" : "https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01037",
+         "description" : "Dataset landing page with general information and access links for the dataset.",
+         "disambiguatingDescription" : "information (HTTPS)",
+         "@type" : "DataDownload"
+      },
+      {
+         "url" : "https://www.ncdc.noaa.gov/EdadsV2/",
+         "description" : "EV2 Information and Data Access Page",
+         "disambiguatingDescription" : "download (HTTPS)",
+         "@type" : "DataDownload"
+      },
+      {
+         "url" : "https://www.ncdc.noaa.gov/IPS/mcdw/mcdw.html",
+         "description" : "Search and download image and publication files.",
+         "disambiguatingDescription" : "download (HTTPS)",
+         "@type" : "DataDownload"
+      }
+   ],
+   "datePublished" : "2011-03-15",
+   "@context" : "http://schema.org"
+}
+</script>
+</head>
+<body><div id="main">
+<header><div id="header" class="clearfix" role="banner"><div class="inset clearfix">
+<a class="noaalink" href="http://www.noaa.gov/" title="National Oceanic and Atmospheric Administration"></a><div class="title"><a href="https://www.ncei.noaa.gov/"><img src="/media/images/common/nceilogo2.png" alt="National Centers for Environmental Information" /></a></div><a href="http://www.commerce.gov/" id="headDOC" title="Visit the U.S. Department of Commerce website"></a>
+</div></div>
+<div class="element-invisible">
+<a class="element-invisible element-focusable" href="#main-content">Skip to main content</a><br><a class="element-invisible element-focusable" href="#site-search">Skip to site search</a>
+</div>
+<nav id="nav" class="clearfix" role="navigation"><div class="inset">
+<ul class="mainNav" role="menubar">
+<li role="menuitem"><a href="//www.nodc.noaa.gov/" title="Home">Home</a></li>
+<li role="menuitem"><a href="//www.nodc.noaa.gov/access/" title="Access Data">Access Data</a></li>
+<li role="menuitem"><a href="//www.nodc.noaa.gov/submit/" title="Submit Data">Submit Data</a></li>
+<li role="menuitem"><a href="//www.nodc.noaa.gov/outreach/" title="Public Outreach">Public Outreach</a></li>
+<li role="menuitem"><a href="//www.nodc.noaa.gov/about/" title="About">About</a></li>
+</ul>
+<div class="navSearchForm" role="search"><form name="sitesearchform" method="get" action="//www.nodc.noaa.gov/archivesearch/rest/find/document">
+<a id="site-search"></a><fieldset>
+<input type="hidden" name="f" value="searchPage" />
+<legend>Search for data at the National Centers for Environmental Information</legend>
+<label for="sitesearch">Search Field:</label>
+<input type="text" name="searchText" class="searchtext inputbox" id="sitesearch" value="Search NCEI Data" maxlength="50" tabindex="1"><label for="sitesearchbutton">Search button:</label><input type="submit" class="submitbutton" id="sitesearchbutton" value="Search" tabindex="2">
+</fieldset>
+</form></div>
+</div></nav></header><div id="breadcrumbs"><div class="inset">
+<a href="//www.ncei.noaa.gov/" title="National Centers for Environmental Information">Home</a> &nbsp;&gt; &nbsp;
+<a href="/">Data</a> &nbsp;
+ &nbsp;&gt; &nbsp; <a href="https://www.nodc.noaa.gov/archivesearch/">Metadata</a> &nbsp;&gt; &nbsp; gov.noaa.ncdc:C01037
+        </div></div>
+<div id="content" class="clearfix reset"><div class="inset">
+<h1>Monthly Climatic Data for the World</h1>
+<h2>EV2 - Monthly Climatic Data for the World</h2>
+<div class="row">
+<div class="col-xs-4 col-sm-3 col-md-2">
+<a href="https://www1.ncdc.noaa.gov/pub/data/metadata/images/C01037.JPG"><img alt="browse graphic" class=" img-responsive " src="https://www1.ncdc.noaa.gov/pub/data/metadata/images/C01037.JPG"></a><small>Image example</small>
+</div>
+<div class="col-md-7">Publication of monthly mean temperature, pressure, precipitation, vapor pressure, and hours of sunshine for approximately 2,000 surface data collection stations worldwide, and monthly mean upper air temperatures, dew point depressions, and wind velocities for approximately 500 observing sites.</div>
+<div class="col-md-3"><div class="panel-group" id="UseAndID" aria-multiselectable="true" role="tablist">
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="citation"><span class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#UseAndID" href="#collapseCitation" aria-expanded="false" aria-controls="collapseCitation"> Dataset Citation </a></span></div>
+<div id="collapseCitation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="citation"><div class="panel-body"><span> Cite this dataset when used as a source. </span></div></div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="identifiers"><span class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#UseAndID" href="#collapseIdentifiers" aria-expanded="false" aria-controls="collapseIdentifiers"> Dataset Identifiers </a></span></div>
+<div id="collapseIdentifiers" class="panel-collapse collapse" role="tabpanel" aria-labelledby="identifiers"><div class="panel-body"><ul>
+<li>NCEI DSI 3900_01</li>
+<li>gov.noaa.ncdc:C01037</li>
+</ul></div></div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="19115-2"><span class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#UseAndID" href="#collapse19115-2" aria-expanded="false" aria-controls="collapse19115-2"> ISO 19115-2 Metadata </a></span></div>
+<div id="collapse19115-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="19115-2"><div class="panel-body"><span><a class="isoLink" href="/cgi-bin/iso?id=gov.noaa.ncdc:C01037;view=xml" target="_blank"><span><i class="glyphicon glyphicon-share-alt"></i></span>C01037.xml </a></span></div></div>
+</div>
+</div></div>
+</div>
+<div class="row"><div class="col-md-12" id="tab-section">
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#OnlineAccess" aria-controls="OnlineAccess" role="tab" data-toggle="tab">Access</a></li>
+<li role="presentation"><a href="#Coverage" aria-controls="coverage" role="tab" data-toggle="tab" id="coverageTab">Time &amp; Location</a></li>
+<li role="presentation"><a href="#Documentation" aria-controls="documentation" role="tab" data-toggle="tab">Documentation</a></li>
+<li role="presentation"><a href="#Description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
+<li role="presentation"><a href="#Credit" aria-controls="credit" role="tab" data-toggle="tab">Credit</a></li>
+<li role="presentation"><a href="#keywords" aria-controls="keywords" role="tab" data-toggle="tab">Keywords</a></li>
+<li role="presentation"><a href="#Constraints" aria-controls="constraints" role="tab" data-toggle="tab">Constraints</a></li>
+<li role="presentation"><a href="#Lineage" aria-controls="lineage" role="tab" data-toggle="tab">Lineage</a></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="OnlineAccess"><div class="row"><div class="col-md-12"><div class="col-md-12"><div class="row"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td class="col-md-3">Download Data</td>
+<td><ul class="unstyled">
+<li>
+<a href="https://www.ncdc.noaa.gov/EdadsV2/" target="_blank">EV2 Image Access System</a> <span class="italics">(download)</span><br>EV2 Information and Data Access Page</li>
+<li>
+<a href="https://www.ncdc.noaa.gov/IPS/mcdw/mcdw.html" target="_blank">Image and Publications Access System</a> <span class="italics">(download)</span><br>Search and download image and publication files.</li>
+</ul></td>
+</tr>
+<tr>
+<td class="col-md-3">Distribution Formats</td>
+<td><ul><li>PDF<ul>
+<li>File Specification: <i></i>
+</li>
+<li>File Compression: <i></i>
+</li>
+</ul>
+</li></ul></td>
+</tr>
+<tr>
+<td class="col-md-3">Distributor</td>
+<td>Customer Engagement Branch<br><span class="italics">DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</span><br>1-828-271-4800<br><a href="mailto:ncei.orders@noaa.gov?Monthly%20Climatic%20Data%20for%20the%20World%20)">ncei.orders@noaa.gov</a>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Dataset  Point of Contact </td>
+<td>William Angel<br>CDMP Program Manager<br><span class="italics">DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce<br></span>+1 828-271-4800<br><a href="mailto:ncei.orders@noaa.gov?Monthly%20Climatic%20Data%20for%20the%20World">ncei.orders@noaa.gov</a><br>
+</td>
+</tr>
+</table></div></div></div></div></div>
+<div role="tabpanel" class="tab-pane" id="Coverage"><div class="row"><div class="col-md-12"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td>Coverage Description</td>
+<td></td>
+</tr>
+<tr>
+<td class="col-md-3">Time Period</td>
+<td>1948 to Present</td>
+</tr>
+<tr>
+<td class="col-md-3">Spatial Bounding Box Coordinates</td>
+<td>
+<div class="col-md-2 bounding-box">
+<strong>N: </strong>90</div>
+<div class="col-md-2 bounding-box">
+<strong>S: </strong>-90</div>
+<div class="col-md-2 bounding-box">
+<strong>E: </strong>180</div>
+<div class="col-md-2 bounding-box">
+<strong>W: </strong>-180</div>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Spatial Coverage Map</td>
+<td><div id="map-canvas"></div></td>
+</tr>
+</table></div></div></div>
+<div role="tabpanel" class="tab-pane" id="Documentation"><div class="row"><div class="col-md-12"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td class="col-md-3">Dataset Information</td>
+<td><ul class="unstyled"><li>
+<a href="https://www.ncdc.noaa.gov/climate-information/research-programs/climate-database-modernization-program" target="_blank">CDMP Web site</a><br>Information about the Climate Database Modernization Program (CDMP) and the current Image Access Repository.</li></ul></td>
+</tr>
+<tr>
+<td class="col-md-3">General Documentation</td>
+<td><ul class="unstyled"><li>
+<a href="https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C01037" target="_blank">Monthly Climatic Data for the World Landing Page</a><br>Dataset landing page with general information and access links for the dataset.</li></ul></td>
+</tr>
+</table></div></div></div>
+<div role="tabpanel" class="tab-pane" id="Description"><div class="row"><div class="col-md-12"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td class="col-md-3">Publication Dates</td>
+<td><ul class="unstyled">
+<li>publication: 2011-03-15</li>
+<li>revision: 2013-05-02</li>
+</ul></td>
+</tr>
+<tr>
+<td class="col-md-3">Data Presentation Form</td>
+<td> Digital image <br>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Dataset Progress Status</td>
+<td>Complete -  production of the data has been completed</td>
+</tr>
+<tr>
+<td class="col-md-3">Data Update Frequency</td>
+<td> Irregular </td>
+</tr>
+<tr>
+<td class="col-md-3">Purpose</td>
+<td>In the late 1990s NCDC realized the need to host digital images of weather and climate records on the internet. As a result, EV2 was developed as a key system for providing access to the millions of original source data images in the NCDC archives. With its upload and index capability, EV2 also enables the continuation of NCDC's commitment to make more of its weather and climate data available online so that users across the world can view climate and weather records held in the NCDC archives.</td>
+</tr>
+<tr>
+<td class="col-md-3">Use Limitations</td>
+<td><ul class="unstyled"><li>Controlled user access to the EV2 system</li></ul></td>
+</tr>
+</table></div></div></div>
+<div role="tabpanel" class="tab-pane" id="Credit"><div class="row"><div class="col-md-12"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td class="col-md-3">Publishers</td>
+<td><ul class="unstyled">
+<li><span class="italics">DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</span></li>
+<li><span class="italics">DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce</span></li>
+</ul></td>
+</tr>
+</table></div></div></div>
+<div role="tabpanel" class="tab-pane" id="keywords"><div class="row"><div class="col-md-12"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td class="col-md-3">Theme keywords</td>
+<td>
+<span class="italics">Global Change Master Directory (GCMD) Science Keywords</span><ul>
+<li>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION</li>
+<li>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE</li>
+<li>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE</li>
+<li>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS</li>
+<li>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; SUNSHINE</li>
+</ul>
+<span class="italics">GCOS Essential Climate Variables (ECVs)</span><ul>
+<li>Atmospheric - Surface - Air Temperature</li>
+<li>Atmospheric - Surface - Precipitation</li>
+<li>Atmospheric - Surface - Wind Speed and Direction</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Data Center keywords</td>
+<td>
+<span class="italics">Global Change Master Directory (GCMD) Data Center Keywords</span><ul>
+<li>DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce</li>
+<li>DOC/NOAA/NESDIS/NCEI &gt; National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Platform keywords</td>
+<td>
+<span class="italics">Global Change Master Directory (GCMD) Platform Keywords</span><ul><li>METEOROLOGICAL STATIONS</li></ul>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Instrument keywords</td>
+<td>
+<span class="italics">Global Change Master Directory (GCMD) Instrument Keywords</span><ul>
+<li>THERMOMETERS</li>
+<li>ANEMOMETERS</li>
+<li>RAIN GAUGES</li>
+<li>BAROMETERS</li>
+<li>VISUAL OBSERVATIONS</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Place keywords</td>
+<td>
+<span class="italics">Global Change Master Directory (GCMD) Location Keywords</span><ul><li>GEOGRAPHIC REGION &gt; GLOBAL LAND</li></ul>
+</td>
+</tr>
+<tr>
+<td class="col-md-3">Stratum keywords</td>
+<td>
+<span class="italics">Global Change Master Directory (GCMD) Location Keywords</span><ul><li>VERTICAL LOCATION &gt; LAND SURFACE</li></ul>
+</td>
+</tr>
+</table></div></div></div>
+<div role="tabpanel" class="tab-pane" id="Constraints"><div class="row"><div class="col-md-12"><table class="table table-condensed table-bordered">
+<thead><tr><th colspan="2"></th></tr></thead>
+<tr>
+<td class="col-md-3">Use Constraints</td>
+<td><ul><li>NCEI cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NCEI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.</li></ul></td>
+</tr>
+<tr>
+<td class="col-md-3">Fees</td>
+<td><ul><li>In most cases, electronic downloads of the data are free, however fees may apply for data certifications, copies of analog materials, and data distribution on physical media.</li></ul></td>
+</tr>
+</table></div></div></div>
+<div role="tabpanel" class="tab-pane" id="Lineage"><div class="row"><div class="col-md-12 multi-table">
+<table class="table table-condensed table-bordered multi-table">
+<caption class="text-left"> Lineage information for: dataset</caption>
+<tr>
+<td class="col-md-3">Lineage Statement</td>
+<td>The vast majority of the digital image records available originate from the NCDC physical archives through the Climate Database Modernization Program (CDMP). These efforts produced over 50 million images from 2000-2011. Additional limited scanning activities at NCDC also contribute to the image repository. Partnerships with other NOAA line offices and international weather services have contributed to the broad and global nature of digitally imaged records available from the NCDC.</td>
+</tr>
+<tr>
+<td>Processor</td>
+<td><ul class="unstyled"><li>NCDC Climate Data Modernization Program</li></ul></td>
+</tr>
+<tr>
+<td class="col-md-3">Processing Steps</td>
+<td><ul><li>Scan<br> Rationale: To digitize collection in order to make available online.</li></ul></td>
+</tr>
+</table>
+<table class="table table-condensed table-bordered multi-table">
+<caption class="text-left"> Lineage information for: repository</caption>
+<tr>
+<td class="col-md-3">Processing Steps</td>
+<td><ul><li>2015-04-22T00:00:00 - NOAA created the National Centers for Environmental Information (NCEI) by merging NOAA's National Climatic Data Center (NCDC), National Geophysical Data Center (NGDC), and National Oceanographic Data Center (NODC), including the National Coastal Data Development Center (NCDDC), per the Consolidated and Further Continuing Appropriations Act, 2015, Public Law 113-235. NCEI launched publicly on April 22, 2015.</li></ul></td>
+</tr>
+</table>
+</div></div></div>
+</div>
+</div></div>
+<div class="text-center"> Last Modified: 2018-01-19</div>
+<div class="text-center">For questions about the information on this page, please email: <a href="mailto:ncei.orders@noaa.gov?Monthly%20Climatic%20Data%20for%20the%20World">ncei.orders@noaa.gov</a>
+</div>
+</div></div>
+
+<footer id="footer" class="clearfix"><div class="inset">
+<div class="subfooter">
+<a role="link" href="http://www.commerce.gov/"><img src="/css/apps/iso/images/logos/logo_doc.png" alt="Click to visit the U.S. Department of Commerce Website"></a><a role="link" href="http://www.usa.gov"><img src="/css/apps/iso/images/logos/logo_usagov.png" alt="Click to visit USA.gov"></a><a role="link" href="http://www.ready.gov"><img src="/css/apps/iso/images/logos/logo_ready.png" alt="Click to visit Ready.gov"></a>
+</div>
+<ul class="menu">
+<li><a role="link" title="NCEI" href="https://www.ncei.noaa.gov/">NCEI</a></li>
+<li><a role="link" title="About NCEI" href="https://www.ncei.noaa.gov/about/">About NCEI</a></li>
+<li><a role="link" title="Employment" href="https://www.ncdc.noaa.gov/about/employment">Employment</a></li>
+</ul>
+<ul class="menu">
+<li><a role="link" title="NOAA's Privacy Policy" href="http://www.noaa.gov/privacy.html" rel="external">Privacy</a></li>
+<li><a role="link" title="Freedom of Information Act" href="http://www.rdc.noaa.gov/%7Efoia/" rel="external">FOIA</a></li>
+<li><a role="link" title="Information Quality" href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html" rel="external">Information Quality</a></li>
+<li><a role="link" title="Disclaimer" href="http://www.noaa.gov/disclaimer.html" rel="external">Disclaimer</a></li>
+</ul>
+<ul class="menu last">
+<li><a role="link" title="Take Our Survey" href="//www.nodc.noaa.gov/survey.html">Take Our Survey</a></li>
+<li><a role="link" title="United States Department of Commerce" href="http://www.commerce.gov/" rel="external">Department of Commerce</a></li>
+<li><a role="link" title="NOAA" href="http://www.noaa.gov" rel="external">NOAA</a></li>
+<li><a role="link" title="NESDIS" href="http://www.nesdis.noaa.gov/" rel="external">NESDIS</a></li>
+</ul>
+<div class="clearfix"></div>
+<div id="footerCrumbs" class="clearfix">
+<a class="ext" href="http://www.commerce.gov/" target="_blank" title="Department of Commerce">Department of Commerce</a><span class="ext">&nbsp;</span>&nbsp;&gt;&nbsp;<a class="ext" href="http://www.noaa.gov/" target="_blank" title="NOAA">NOAA</a><span class="ext">&nbsp;</span>&nbsp;&gt;&nbsp;<a class="ext" href="http://www.nesdis.noaa.gov/" target="_blank" title="NESDIS">NESDIS</a><span class="ext">&nbsp;</span>&nbsp;&gt;&nbsp;<a href="//www.ncei.noaa.gov/" title="NCEI">NCEI</a>
+</div>
+</div></footer>
+</div></body>
+</html>
