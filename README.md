@@ -15,10 +15,10 @@ This project has the potential to:
 - **Explore Human Experience:** Utilizing AI to explore various aspects of the human experience.
 - **Versatile Applications:** Valuable for therapeutic, historical, and educational applications.
 
-## 🚀 Join Us
-We are excited about the possibilities Dme offers and invite you to join us on this revolutionary journey!
+## 🚀 Join Me
+I am are excited about the possibilities Dme offers and invite you to join me on this revolutionary journey!
 
 ---
 
-⭐ For more information, feel free to contact us or contribute to the project.
+⭐ For more information, feel free to contact me or contribute to the project.
 
